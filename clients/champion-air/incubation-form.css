@@ -1,0 +1,688 @@
+@media screen and (min-width: 750px) {
+html {
+  scrollbar-gutter: stable both-edges;
+}
+}
+
+/*select room spacing increase on mobile */
+@media screen and (max-width: 750px) {
+#cid_29 .form-checkbox-item {
+  margin-top: 12px !important;
+}
+}
+
+/* Hide form briefly, then show */
+
+.form-all.form-all {
+  opacity: 1 !important;
+}
+
+.form-pagebreak {
+  margin-bottom: 200px;
+}
+
+ /* Prevents refresh to avoid accidental form loss */
+html, body {
+  overscroll-behavior: none;
+}
+
+/* Only apply 50% max-width on larger desktop screens */
+@media screen and (min-width: 1024px) {
+  div[data-wrapper-react="true"] {
+    max-width: 50% !important;
+  }
+}
+
+/* Full width for date picker on mobile and tablet */
+@media screen and (max-width: 1023px) {
+  div[data-wrapper-react="true"] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+
+/* total cfu cards */
+li#id_58.form-line.form-line-column.form-col-1,
+li#id_64.form-line.form-line-column.form-col-1,
+li#id_71.form-line.form-line-column.form-col-1,
+li#id_80.form-line.form-line-column.form-col-1,
+li#id_87.form-line.form-line-column.form-col-1{
+    width: 175px !important;
+    border: 1px solid #ECF0F5 !important;
+    margin: 0px 30px 40px 15px;
+       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+       border-radius: 4px;
+}
+
+/*action level and pass/fail cards */
+.form-line-column:not(.form-line-column-clear):not(:has(#input_37)).fixed-width {
+    border: 1px solid #ECF0F5 !important;
+    margin: 0px 30px 40px 15px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+/*table card */
+li#id_11[data-type=control_matrix] .form-input-wide,
+li#id_18[data-type=control_matrix] .form-input-wide,
+li#id_70[data-type=control_matrix] .form-input-wide,
+li#id_79[data-type=control_matrix] .form-input-wide,
+li#id_86[data-type=control_matrix] .form-input-wide,
+li#id_15[data-type=control_matrix] .form-input-wide,
+li#id_14[data-type=control_matrix] .form-input-wide,
+li#id_57[data-type=control_matrix] .form-input-wide,
+li#id_20[data-type=control_matrix] .form-input-wide,
+li#id_17[data-type=control_matrix] .form-input-wide
+
+{
+  border: 1px solid #ECF0F5 !important;
+  border-radius: 4px;
+ padding: 30px;
+   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+  
+}
+
+li#id_100[data-type=control_matrix] .form-input-wide {
+  
+  border: 1px solid #ECF0F5 !important;
+ padding: 50px 30px 71px 30px;
+   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+li#id_14[data-type=control_matrix] .form-input-wide
+
+{
+  border: 1px solid #ECF0F5 !important;
+ padding: 30px;
+   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+  
+}
+
+
+.form-all {
+  box-shadow: none !important;
+}
+
+/* change color of radio buttons */
+
+.form-radio+label:after, .form-radio+span:after {
+    background-color: #3d5294 !important;
+}
+
+
+.form-radio-item:checked+label:after {
+    border : 3px solid #3d5294 !important;
+}
+
+.form-radio+label:after, .form-radio+span:after {
+    background : #3d5294 !important;
+}
+
+.form-radio:checked+label:before {
+    border-color : #3d5294 !important;
+}
+
+
+/* change color of checkbox buttons */
+.form-checkbox:checked + label:before, .form-checkbox:checked + span:before {
+background-color: #3d5294 !important;
+border-color: #3d5294 !important;
+}
+
+
+/* Recolor input tables with more tasteful blue gray */
+.form-matrix-values
+  {
+        background-color: #F6F7FA !important; /* Change this hex code to your desired color */
+    }
+
+td.form-matrix-values input
+{
+  background-color: #F6F7FA !important;
+}
+
+
+td.form-matrix-values:nth-child(n+1) input {
+  border: 0px solid #d0d0d0 !important;
+ 
+}
+
+/* JotForm input tables - #CAD5E9 background */
+
+/* Override the corner cell - multiple attempts */
+th.form-matrix-th:first-child {
+  background-color: #ffffff !important;
+
+}
+
+
+/* All incubation table columns */
+.form-matrix-row-headers{
+width: 300px;
+}
+
+.form-matrix-column_0 {
+width: 40px !important;
+}
+
+
+.form-matrix-column_1 {
+width: 40px !important;
+
+}
+.form-matrix-column_2 {
+width: 40px !important;
+
+}
+.form-matrix-column_3 {
+width: 40px !important;
+
+;
+}
+.form-matrix-column_4 {
+width: 40px !important;
+}
+
+.form-matrix-column_5 {
+width: 40px !important;
+
+}
+.form-matrix-column_6 {
+width: 40px !important;
+
+}
+.form-matrix-column_7 {
+width: 40px !important;
+
+}
+.form-matrix-column_8 {
+width: 40px !important;
+
+}
+.form-matrix-column_9 {
+width: 40px !important;
+
+}
+.form-matrix-column_10 {
+width: 40px !important;
+}
+.form-matrix-column_11 {
+width: 40px !important;
+}
+.form-matrix-column_12 {
+width: 40px !important;
+}
+.form-matrix-column_13 {
+width: 50px !important;
+}
+
+.form-matrix-column_14 {
+width: 30px !important;
+    background : #81e08d !important;
+}
+.form-matrix-column_15 {
+width: 30px !important;
+   background : #ff6d6d !important;
+}
+
+.form-matrix-column_16 {
+width: 20px !important;
+}
+
+
+.form-matrix-table {
+  font-size: 13px;
+}
+
+/* For table header cells */
+th.form-matrix-column_14 {
+    background-color: #81e08d !important;
+    width: 30px !important;
+}
+
+th.form-matrix-column_15 {
+    background-color: #ff6d6d !important;
+    width: 30px !important;
+}
+
+
+/*Adjusts the dimensions of the cell of an input table - 16478263*/
+.form-matrix-values > input[type="text"] {
+    font-size: 12px !important;
+    text-align: center;/*Adjusts the font size of the text in an input table*/
+}
+
+#id_11 td.form-matrix-values:nth-child(n+1) input,
+#id_18 td.form-matrix-values:nth-child(n+1) input,
+#id_19 td.form-matrix-values:nth-child(n+1) input,
+#id_17 td.form-matrix-values:nth-child(n+1) input,
+#id_20 td.form-matrix-values:nth-child(n+1) input,
+#id_57 td.form-matrix-values:nth-child(n+1) input{
+  background-color: #F6F7FA !important;
+}
+#id_11 .form-matrix-values:nth-child(n+1),
+#id_18 .form-matrix-values:nth-child(n+1),
+#id_19 .form-matrix-values:nth-child(n+1),
+#id_17 .form-matrix-values:nth-child(n+1),
+#id_20 .form-matrix-values:nth-child(n+1),
+#id_57 .form-matrix-values:nth-child(n+1){
+        background-color: #F6F7FA !important; /* Change this hex code to your desired color */
+    }
+
+
+#id_11 td.form-matrix-values:nth-child(n+5) input,
+#id_17 td.form-matrix-values:nth-child(n+5) input,
+#id_18 td.form-matrix-values:nth-child(n+5) input,
+#id_19 td.form-matrix-values:nth-child(n+5) input,
+#id_20 td.form-matrix-values:nth-child(n+5) input,
+#id_57 td.form-matrix-values:nth-child(n+5) input
+{
+  background-color: #EFF1F6 !important;
+}
+
+#id_11 .form-matrix-values:nth-child(n+5),
+#id_17 .form-matrix-values:nth-child(n+5),
+#id_18 .form-matrix-values:nth-child(n+5),
+#id_19 .form-matrix-values:nth-child(n+5),
+#id_20 .form-matrix-values:nth-child(n+5),
+#id_57 .form-matrix-values:nth-child(n+5){
+  background-color: #EFF1F6 !important; /* Change this hex code to your desired color */
+    }
+
+#id_11 td.form-matrix-values:nth-child(n+12) input,
+#id_17 td.form-matrix-values:nth-child(n+12) input,
+#id_18 td.form-matrix-values:nth-child(n+12) input,
+#id_19 td.form-matrix-values:nth-child(n+12) input,
+#id_20 td.form-matrix-values:nth-child(n+12) input,
+#id_57 td.form-matrix-values:nth-child(n+12) input {
+  background-color: #fff !important;
+}
+#id_11 .form-matrix-values:nth-child(n+12),
+#id_17 .form-matrix-values:nth-child(n+12),
+#id_18 .form-matrix-values:nth-child(n+12),
+#id_19 .form-matrix-values:nth-child(n+12),
+#id_20 .form-matrix-values:nth-child(n+12),
+#id_57 .form-matrix-values:nth-child(n+12){
+        background-color: #fff !important; /* Change this hex code to your desired color */
+    }
+
+.form-radio+span:after {
+    background-color: #70d77c !important;
+}
+
+
+#id_14 th:nth-child(1),
+#id_14 td:nth-child(1) {
+  display: none !important;
+}
+
+
+/* Stickky Bar CSS */
+/* Clean pill-style tabs (ChatGPT inspired) */
+ul#tabs-list {
+  display: flex !important;
+  list-style: none !important;
+  padding: 8px !important;
+  margin: 20px auto 0px auto !important;
+  max-width: calc(100% - 10px) !important;
+  justify-content: center !important;
+}
+
+ul.tabs-list.default {
+  margin: 40px auto 0px auto !important; /* Changed to auto for centering */
+}
+
+/* Hide before/after decorative elements */
+.liAfter, .liBefore {
+  display: none !important;
+}
+
+/* Individual tab styling */
+li[id^="form-tab"] {
+  flex: 0 0 auto !important;
+  min-width: 85px !important;
+  margin: 0 7px !important;
+  padding: 7px 13px !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  width: auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+}
+
+/* Target the liContent div - center the text inside it */
+li[id^="form-tab"] .liContent {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
+  position: relative !important;
+  top: 0 !important;
+  transition: all 0.3s ease !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+}
+
+/* First tab - no left margin */
+li[id^="form-tab"]:first-child {
+  margin-left: 0 !important;
+}
+
+/* Last tab - no right margin */
+li[id^="form-tab"]:last-child {
+  margin-right: 0 !important;
+}
+
+/* Hover state - gentle fade with #FAFAFA and border */
+li[id^="form-tab"]:not(.current):hover {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+}
+
+li[id^="form-tab"]:not(.current):hover .liContent {
+  color: #000 !important;
+}
+
+/* Active tab - ALL possible variations with #FAFAFA and border */
+li[id^="form-tab"].current,
+li[id^="form-tab"][aria-selected="true"],
+li#form-tab-1.current,
+li#form-tab-2.current,
+li#form-tab-3.current,
+li#form-tab-4.current,
+li#form-tab-5.current,
+li#form-tab-6.current,
+li#form-tab-7.current,
+li#form-tab-8.current,
+li#form-tab-9.current,
+li#form-tab-10.current,
+li#form-tab-11.current,
+li#form-tab-12.current {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+  box-shadow: none !important;
+}
+
+/* Active tab text color - ALL variations */
+li[id^="form-tab"].current .liContent,
+li[id^="form-tab"][aria-selected="true"] .liContent,
+li#form-tab-1.current .liContent,
+li#form-tab-2.current .liContent,
+li#form-tab-3.current .liContent,
+li#form-tab-4.current .liContent,
+li#form-tab-5.current .liContent,
+li#form-tab-6.current .liContent,
+li#form-tab-7.current .liContent,
+li#form-tab-8.current .liContent,
+li#form-tab-9.current .liContent,
+li#form-tab-10.current .liContent,
+li#form-tab-11.current .liContent,
+li#form-tab-12.current .liContent {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+/* Active hover - maintain active state */
+li[id^="form-tab"].current:hover,
+li[id^="form-tab"][aria-selected="true"]:hover {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+}
+
+/* Mobile-only centering for tabs */
+@media screen and (max-width: 750px) {
+  ul.tabs-list.default,
+  ul#tabs-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 columns on larger mobile */
+    gap: 10px !important;
+    justify-content: center !important;
+    margin: 20px auto 0 auto !important;
+    width: calc(100% - 20px) !important; /* 10px padding on each side */
+    padding: 10px !important;
+    max-width: 500px !important; /* optional: cap max width */
+  }
+  
+  #cid_898 {
+    display: none !important;
+  }
+  
+  li[id^="form-tab"] {
+    margin: 0 !important; /* Remove margin, grid gap handles spacing */
+    width: 100% !important; /* Fill grid cell */
+    min-width: 0 !important; /* Allow shrinking if needed */
+    padding: 12px 13px !important; /* Increase vertical padding (top/bottom) */
+  }
+  
+  /* Target the inner content to ensure height is respected */
+  li[id^="form-tab"] .liContent {
+    min-height: 20px !important; /* Adjust this value to make taller */
+  }
+}
+
+/* Smaller mobile devices - 2 columns */
+@media screen and (max-width: 400px) {
+  ul.tabs-list.default,
+  ul#tabs-list {
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 columns on small phones */
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs-list.upcoming,
+  ul.tabs-list {
+    position: sticky !important;
+    top: 12px !important;
+    z-index: 999 !important;
+    background: white !important;
+    padding: 12px 15px !important;
+    margin: 0 auto 35px auto !important;
+    max-width: 90% !important;
+    border-radius: 13px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+}
+
+/* End Stickky Bar CSS */
+
+
+  
+  /* Setting up page titles */
+div#cid_39, div#cid_40, div#cid_41, div#cid_42, div#cid_43 {
+  width: 100% !important;
+  margin: auto auto -30px auto !important;
+  background-color: #1f2c4d; 
+  padding: 5px; 
+  margin-top: 30px; 
+  border-radius: 6px; 
+
+}
+
+#input_39, #input_40, #input_41, #input_42, #input_43 {
+text-align: center;
+border: none !important;
+color: #ffffff !important;
+font-weight: 700;
+background-color: #1f2c4d;
+border-color: #1f2c4d;
+}
+
+
+label#label_39, #label_11, #label_40, #label_18, #label_41, #label_19, #label_42, #label_20, #label_43, #label_17, #label_57 {
+  display: none;
+}
+
+#cid_15 .form-matrix-row-headers{
+  width: 10px !important;
+}
+
+li#id_49.form-line {
+      font-weight: 500;
+      margin: auto;
+    width: 50%;
+    padding: 20px !important;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+
+@media screen and (max-width: 767px){
+    ul.form-section {
+        display : contents;
+    }
+        .form-single-column {
+    width: 100%;
+  }
+  
+  li#id_49.form-line {
+      font-weight: 500;
+      margin: auto;
+    width: 90%;
+    padding: 20px !important;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+}
+
+/* remove hover shadow effect
+from input table to solve the stuttering problem */ 
+input:focus, input:hover, 
+textarea:focus, textarea:hover,
+select:focus, select:hover {
+  border: none !important;
+  
+}
+
+/* remove hover effect from page headers */
+#id_39 input.form-readonly:hover, #id_40 input.form-readonly:hover, 
+#id_41 input.form-readonly:hover, #id_42 input.form-readonly:hover,
+#id_43 input.form-readonly:hover{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  
+}
+
+#id_39 input.form-readonly:focus, #id_40 input.form-readonly:focus, 
+#id_41 input.form-readonly:focus, #id_42 input.form-readonly:focus,
+#id_43 input.form-readonly:focus{
+border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  
+}
+  
+  #animation {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #308BDF 0%, #35C3F4 100%);
+    border-radius: 12px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress-fill 25s linear forwards;
+}
+
+#animationContainer {
+    width: 60%;
+    height: 22px;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } }
+
+
+[data-css-selector="id_38"] {
+    width : 300px !important;
+}
+
+/* Target specific long text field by ID */
+#input_59, #input_60, #input_61, #input_62, #input_63 {
+  border-color: #eeeeee;
+}
+
+.submit-button {
+  color: #ffffff !important;
+}
+.submit-button:hover {
+  opacity:.6 !important;
+  transition: 350ms;
+    color: #ffffff !important;
+
+}
+.form-label.form-label-auto {
+        
+      display: block;
+      float: none;
+      text-align: left;
+      width: 100%;
+    
+      }
+      
+     
+
+/* Center the Form Status */
+#label_72 {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+#id_72 {
+  text-align: center !important;
+}
+
+#id_72 .form-single-column {
+  width: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+#id_72 .form-radio-item {
+  clear: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 12px !important;
+  text-align: left !important;
+  float: none !important;
+  width: auto !important;
+  display: block !important;
+}
+
+#input_37, #label_37 {
+  pointer-events: none;
+}
+
+#cid_71.form-input-wide{
+  margin-bottom:200px !important;
+}
+
