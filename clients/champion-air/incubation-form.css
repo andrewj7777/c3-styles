@@ -617,7 +617,7 @@ border: none !important;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } }
+@keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } 
 
 
 [data-css-selector="id_38"] {
