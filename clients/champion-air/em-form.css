@@ -228,7 +228,6 @@ padding-bottom: 10px !important;
 }
 
 
-
 /* Sticky Bar CSS */
 /* Clean pill-style tabs (ChatGPT inspired) */
 ul#tabs-list {
@@ -412,8 +411,7 @@ li[id^="form-tab"][aria-selected="true"]:hover {
   
 }
 
-
-/* End Stickky Bar CSS */
+/* End Sticky Bar CSS */
 
 
 .submit-button:hover {
@@ -712,5 +710,4 @@ th.form-matrix-th:first-child {
   opacity:.6 !important;
   transition: 350ms;
     color: #ffffff !important;
-
 }
