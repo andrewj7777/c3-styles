@@ -1,1 +1,716 @@
+@media screen and (min-width: 750px) {
+  html {
+    scrollbar-gutter: stable both-edges;
+  }
+}
 
+/*select room spacing increase on mobile */
+@media screen and (max-width: 750px) {
+#cid_892 .form-checkbox-item {
+  margin-top: 12px !important;
+}
+}
+
+/* Hide form briefly, then show */
+
+.form-all.form-all {
+  opacity: 1 !important;
+}
+
+.form-pagebreak {
+  margin-bottom: 200px;
+}
+ 
+ 
+ /* Prevents refresh to avoid accidental form loss */
+html, body {
+  overscroll-behavior: none;
+}
+
+@media screen and (min-width: 420px){
+div.calendar.popup{
+ width: 215px !important;
+}
+}
+
+
+.form-all {
+
+  box-shadow: none !important;
+
+}
+
+
+/*Select All Button CSS*/
+ li#id_1773 .form-checkbox-item
+
+{
+  font-weight: 500;
+  width: 35%;
+  padding: 12px 0px 12px 20px !important;
+  border-radius: 13px;
+  margin-top: 40px !important;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  transform: translate(0px, -20px);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+
+    }
+   
+li#id_1773 .form-checkbox-item:has(input:checked){
+   background-color: #f2f2f2;
+ transition:350ms;
+ }
+ 
+  li#id_1773 .form-checkbox-item:hover
+ {
+    transition: 350ms;
+  background-color: #f2f2f2;
+  
+ }
+
+li#id_1773 label[for="input_1773_0"] {
+  color: #666666 !important;  /* Dark gray - change to whatever color you want */
+  font-weight: 400 !important;
+}
+
+li#id_1773 .form-checkbox-item:has(input:checked) label[for="input_1773_0"]{
+  color: #000000 !important;  /* Darker when selected */
+ font-weight: 500 !important;
+}
+
+
+@media screen and (max-width: 767px) {
+  li#id_1773 .form-checkbox-item {
+    width: 100% !important;
+    transform: none !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 14px 20px !important;
+    text-align: center !important;
+  }
+}
+
+.form-section.page-section {
+    border-radius : 15px !important;
+}
+
+.form-label.form-label-auto {
+    display : block;
+    float : none;
+    text-align : left;
+    width : 100%;
+}
+
+@media screen and (max-width: 767px){
+    ul.form-section {
+        display : contents;
+    }
+    
+}
+
+/* Setting up page titles */
+div#cid_1474, div#cid_1475, div#cid_1476, div#cid_1477 {
+  width: 50%;
+  margin: auto;
+  background-color: #1f2c4d; 
+  padding: 5px; 
+  margin-top: 30px; 
+  border-radius: 6px; 
+  margin-right: auto;
+  width: 100%;
+}
+
+#input_1474, #input_1475, #input_1476, #input_1477 {
+text-align: center;
+border: none !important;
+color: #ffffff !important;
+font-weight: 700;
+background-color: #1f2c4d;
+border-color: #1f2c4d;
+}
+
+
+
+#label_4 {
+display: none;
+}
+
+/* Manually hiding input table labels */
+label#label_903, #label_997, #label_1053, 
+#label_1001, #label_1005, #label_1009, 
+#label_1034, #label_1038, #label_1042, 
+#label_1046, #label_1136, #label_1137,
+#label_1138, #label_1138, #label_1139,
+#label_1140, #label_1141, #label_1142, 
+#label_1143, #label_1144, #label_1145,
+#label_1151, #label_1157, #label_1163, 
+#label_1175, #label_1181, #label_1187,
+#label_1193, #label_1199, #label_1205, 
+#label_1474, 
+#label_1475, #label_1476, #label_1477,
+#label_1479, #label_1484, #label_1169,
+#label_1219, #label_1225, #label_1231,
+#label_1237, #label_1243, #label_1249,
+#label_1255, #label_1261, #label_1267,
+#label_1273, #label_1279, #label_1285,
+#label_1291, #label_1297, #label_1303,
+#label_1309, #label_1315, #label_1321,
+#label_1327, #label_1333, #label_1340,
+#label_1346, #label_1352, #label_1358,
+#label_1364, #label_1370, #label_1376,
+#label_1382, #label_1388, #label_1394,
+#label_1400, #label_1406, #label_1412,
+#label_1418, #label_1424, #label_1430,
+#label_1436, #label_1442, #label_1448,
+#label_1454, #label_1493, #label_1498, #label_1773,
+#label_1775, #label_1776, #label_1777,
+#label_1642, #label_1648, #label_1654,
+#label_1660, #label_1666, #label_1672,
+#label_1678, #label_1684, #label_1690,
+#label_1696
+{
+  display: none!important;
+}
+
+/* change color of radio buttons */
+.form-radio-item:checked+label:after {
+    border : 3px solid #3d5294 !important;
+}
+
+.form-radio+label:after, .form-radio+span:after {
+    background : #3d5294 !important;
+}
+
+.form-radio:checked+label:before {
+    border-color : #3d5294 !important;
+}
+
+/* change color of checkbox buttons */
+.form-checkbox:checked + label:before, .form-checkbox:checked + span:before {
+background-color: #3d5294 !important;
+border-color: #3d5294 !important;
+}
+
+.nicEdit-panelContain{
+display: none;
+}
+
+
+li[data-type=control_textarea] .form-input-wide>div, li[data-type=control_textarea] .nicEdit-main{
+  border: none!important;
+}
+
+
+.nicEdit-main{
+  min-height: 50px !important; 
+  overflow: hidden;
+}
+
+
+
+p {
+  font-family: Inter !important;
+  line-height: 1.6 !important;
+}
+
+li {
+  line-height: 1.5 !important;
+}
+
+.tabs-list.upcoming.default li {
+  line-height: 0 !important;
+}
+
+h3 {
+  font-weight: 600 !important;
+padding-bottom: 10px !important;
+}
+
+
+
+/* Sticky Bar CSS */
+/* Clean pill-style tabs (ChatGPT inspired) */
+ul#tabs-list {
+  display: flex !important;
+  list-style: none !important;
+  padding: 8px !important;
+  margin: 20px auto 0px auto !important;
+  max-width: calc(100% - 10px) !important; /*creates mandatory margin IF tabs expand all the way to that point (would force 5px on each size)*/
+  justify-content: center !important;
+}
+
+ul.tabs-list.default {
+  margin: 40px auto 0px auto !important; /* Changed to auto for centering */
+}
+
+/* Hide before/after decorative elements */
+.liAfter, .liBefore {
+  display: none !important;
+}
+
+/* Individual tab styling */
+li[id^="form-tab"] {
+  flex: 0 0 auto !important;
+  min-width: 85px !important;
+  margin: 0 7px !important;
+  padding: 7px 13px !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  width: auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+}
+
+/* Target the liContent div - center the text inside it */
+li[id^="form-tab"] .liContent {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
+  position: relative !important;
+  top: 0 !important;
+  transition: all 0.3s ease !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+}
+
+/* First tab - no left margin */
+li[id^="form-tab"]:first-child {
+  margin-left: 0 !important;
+}
+
+/* Last tab - no right margin */
+li[id^="form-tab"]:last-child {
+  margin-right: 0 !important;
+}
+
+/* Hover state - gentle fade with #FAFAFA and border */
+li[id^="form-tab"]:not(.current):hover {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+}
+
+li[id^="form-tab"]:not(.current):hover .liContent {
+  color: #000 !important;
+}
+
+/* Active tab - ALL possible variations with #FAFAFA and border */
+li[id^="form-tab"].current,
+li[id^="form-tab"][aria-selected="true"],
+li#form-tab-1.current,
+li#form-tab-2.current,
+li#form-tab-3.current,
+li#form-tab-4.current,
+li#form-tab-5.current,
+li#form-tab-6.current,
+li#form-tab-7.current,
+li#form-tab-8.current,
+li#form-tab-9.current,
+li#form-tab-10.current,
+li#form-tab-11.current,
+li#form-tab-12.current {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+  box-shadow: none !important;
+}
+
+/* Active tab text color - ALL variations */
+li[id^="form-tab"].current .liContent,
+li[id^="form-tab"][aria-selected="true"] .liContent,
+li#form-tab-1.current .liContent,
+li#form-tab-2.current .liContent,
+li#form-tab-3.current .liContent,
+li#form-tab-4.current .liContent,
+li#form-tab-5.current .liContent,
+li#form-tab-6.current .liContent,
+li#form-tab-7.current .liContent,
+li#form-tab-8.current .liContent,
+li#form-tab-9.current .liContent,
+li#form-tab-10.current .liContent,
+li#form-tab-11.current .liContent,
+li#form-tab-12.current .liContent {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+/* Active hover - maintain active state */
+li[id^="form-tab"].current:hover,
+li[id^="form-tab"][aria-selected="true"]:hover {
+  background: #FAFAFA !important;
+  border-color: #FAFAFA !important;
+}
+
+/* Mobile-only centering for tabs */
+@media screen and (max-width: 750px) {
+  ul.tabs-list.default,
+  ul#tabs-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 columns on larger mobile */
+    gap: 10px !important;
+    justify-content: center !important;
+    margin: 20px auto 0 auto !important;
+    width: calc(100% - 20px) !important; /* 10px padding on each side */
+    padding: 10px !important;
+    max-width: 500px !important; /* optional: cap max width */
+  }
+  
+  #cid_898 {
+    display: none !important;
+  }
+  
+  li[id^="form-tab"] {
+    margin: 0 !important; /* Remove margin, grid gap handles spacing */
+    width: 100% !important; /* Fill grid cell */
+    min-width: 0 !important; /* Allow shrinking if needed */
+    padding: 12px 13px !important; /* Increase vertical padding (top/bottom) */
+  }
+  
+  /* Target the inner content to ensure height is respected */
+  li[id^="form-tab"] .liContent {
+    min-height: 20px !important; /* Adjust this value to make taller */
+  }
+}
+
+/* Smaller mobile devices - 2 columns */
+@media screen and (max-width: 400px) {
+  ul.tabs-list.default,
+  ul#tabs-list {
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 columns on small phones */
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs-list.upcoming,
+  ul.tabs-list {
+    position: sticky !important;
+    top: 12px !important;
+    z-index: 999 !important;
+    background: white !important;
+    padding: 12px 15px !important;
+    margin: 0 auto 35px auto !important;
+    max-width: 90% !important;
+    border-radius: 13px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  
+}
+
+
+/* End Stickky Bar CSS */
+
+
+.submit-button:hover {
+  opacity:.8;
+  transition: 350ms;
+}
+
+li#id_996 .form-checkbox-item:hover, li#id_1052 .form-checkbox-item:hover, 
+li#id_1000 .form-checkbox-item:hover, li#id_1004 .form-checkbox-item:hover, 
+li#id_1008 .form-checkbox-item:hover, li#id_1033 .form-checkbox-item:hover, 
+li#id_1037 .form-checkbox-item:hover, li#id_1041 .form-checkbox-item:hover, 
+li#id_1045 .form-checkbox-item:hover, li#id_1074 .form-checkbox-item:hover,
+li#id_1080 .form-checkbox-item:hover, li#id_1086 .form-checkbox-item:hover,
+ li#id_1092 .form-checkbox-item:hover, li#id_1098 .form-checkbox-item:hover, li#id_1103 .form-checkbox-item:hover,
+ li#id_1109 .form-checkbox-item:hover, li#id_1114 .form-checkbox-item:hover, li#id_1120 .form-checkbox-item:hover,
+ li#id_1125 .form-checkbox-item:hover, li#id_1131 .form-checkbox-item:hover, li#id_1150 .form-checkbox-item:hover,
+ li#id_1156 .form-checkbox-item:hover, li#id_1168 .form-checkbox-item:hover,
+ li#id_1174 .form-checkbox-item:hover, li#id_1180 .form-checkbox-item:hover, li#id_1186 .form-checkbox-item:hover,
+ li#id_1478 .form-checkbox-item:hover, li#id_1483 .form-checkbox-item:hover,
+ li#id_1218 .form-checkbox-item:hover, li#id_1224 .form-checkbox-item:hover, li#id_1230 .form-checkbox-item:hover, li#id_1236 .form-checkbox-item:hover,
+ li#id_1242 .form-checkbox-item:hover, li#id_1248 .form-checkbox-item:hover, li#id_1254 .form-checkbox-item:hover,
+ li#id_1260 .form-checkbox-item:hover, li#id_1266 .form-checkbox-item:hover, li#id_1272 .form-checkbox-item:hover,
+ li#id_1278 .form-checkbox-item:hover, li#id_1284 .form-checkbox-item:hover, 
+ li#id_1339 .form-checkbox-item:hover, li#id_1345 .form-checkbox-item:hover, li#id_1351 .form-checkbox-item:hover,
+ li#id_1357 .form-checkbox-item:hover, li#id_1363 .form-checkbox-item:hover, li#id_1369 .form-checkbox-item:hover,
+ li#id_1375 .form-checkbox-item:hover, li#id_1381 .form-checkbox-item:hover, 
+ li#id_1411 .form-checkbox-item:hover, li#id_1417 .form-checkbox-item:hover, li#id_1423 .form-checkbox-item:hover,
+ li#id_1429 .form-checkbox-item:hover, li#id_1435 .form-checkbox-item:hover, li#id_1441 .form-checkbox-item:hover,
+ li#id_1447 .form-checkbox-item:hover, li#id_1453 .form-checkbox-item:hover {
+ background-color: #f7f7f7;
+ transition:350ms;
+ }
+ 
+ li#id_996 .form-checkbox-item, li#id_1052 .form-checkbox-item, li#id_1000 .form-checkbox-item, 
+ li#id_1004 .form-checkbox-item, li#id_1008 .form-checkbox-item, li#id_1033 .form-checkbox-item, 
+ li#id_1037 .form-checkbox-item, li#id_1041 .form-checkbox-item, li#id_1045 .form-checkbox-item, 
+ li#id_1074 .form-checkbox-item, li#id_1080 .form-checkbox-item, li#id_1086 .form-checkbox-item,
+ li#id_1092 .form-checkbox-item, li#id_1098 .form-checkbox-item, li#id_1103 .form-checkbox-item,
+ li#id_1109 .form-checkbox-item, li#id_1114 .form-checkbox-item, li#id_1120 .form-checkbox-item,
+ li#id_1125 .form-checkbox-item, li#id_1131 .form-checkbox-item, li#id_1150 .form-checkbox-item,
+ li#id_1156 .form-checkbox-item, li#id_1168 .form-checkbox-item, li#id_1162 .form-checkbox-item,
+ li#id_1174 .form-checkbox-item, li#id_1180 .form-checkbox-item, li#id_1186 .form-checkbox-item,
+ li#id_1192 .form-checkbox-item, li#id_1198 .form-checkbox-item, li#id_1204 .form-checkbox-item,
+ li#id_1478 .form-checkbox-item, li#id_1483 .form-checkbox-item, li#id_1218 .form-checkbox-item,
+ li#id_1224 .form-checkbox-item, li#id_1230 .form-checkbox-item, li#id_1236 .form-checkbox-item,
+ li#id_1242 .form-checkbox-item, li#id_1248 .form-checkbox-item, li#id_1254 .form-checkbox-item,
+ li#id_1260 .form-checkbox-item, li#id_1266 .form-checkbox-item, li#id_1272 .form-checkbox-item,
+ li#id_1278 .form-checkbox-item, li#id_1284 .form-checkbox-item, li#id_1290 .form-checkbox-item,
+ li#id_1296 .form-checkbox-item, li#id_1302 .form-checkbox-item, li#id_1308 .form-checkbox-item,
+ li#id_1314 .form-checkbox-item, li#id_1320 .form-checkbox-item, li#id_1326 .form-checkbox-item,
+ li#id_1332 .form-checkbox-item,
+ li#id_1339 .form-checkbox-item, li#id_1345 .form-checkbox-item, li#id_1351 .form-checkbox-item,
+ li#id_1357 .form-checkbox-item, li#id_1363 .form-checkbox-item, li#id_1369 .form-checkbox-item,
+ li#id_1375 .form-checkbox-item, li#id_1381 .form-checkbox-item, li#id_1387 .form-checkbox-item,
+ li#id_1393 .form-checkbox-item, li#id_1399 .form-checkbox-item, li#id_1405 .form-checkbox-item,
+ li#id_1411 .form-checkbox-item, li#id_1417 .form-checkbox-item, li#id_1423 .form-checkbox-item,
+ li#id_1429 .form-checkbox-item, li#id_1435 .form-checkbox-item, li#id_1441 .form-checkbox-item,
+ li#id_1447 .form-checkbox-item, li#id_1453 .form-checkbox-item, li#id_1492 .form-checkbox-item,
+ li#id_1497 .form-checkbox-item, li#id_1641 .form-checkbox-item, li#id_1647 .form-checkbox-item, li#id_1653 .form-checkbox-item, li#id_1659 .form-checkbox-item,
+ li#id_1665 .form-checkbox-item, li#id_1671 .form-checkbox-item, li#id_1677 .form-checkbox-item,
+ li#id_1683 .form-checkbox-item, li#id_1695 .form-checkbox-item, li#id_1689 .form-checkbox-item
+ {
+  font-weight: 500;
+  width: 100%;
+  padding: 20px !important;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  margin-top: -30px !important;
+  margin-bottom: 0px !important;
+}
+
+/*Hood Sample CSS */
+li#id_1162 .form-checkbox-item, li#id_1168 .form-checkbox-item,
+li#id_1174 .form-checkbox-item, li#id_1180 .form-checkbox-item,
+li#id_1186 .form-checkbox-item, li#id_1192 .form-checkbox-item,
+li#id_1198 .form-checkbox-item, li#id_1204 .form-checkbox-item,
+li#id_1478 .form-checkbox-item, li#id_1483 .form-checkbox-item,
+li#id_1290 .form-checkbox-item,
+ li#id_1296 .form-checkbox-item, li#id_1302 .form-checkbox-item, li#id_1308 .form-checkbox-item,
+ li#id_1314 .form-checkbox-item, li#id_1320 .form-checkbox-item, li#id_1326 .form-checkbox-item,
+ li#id_1332 .form-checkbox-item, li#id_1492 .form-checkbox-item,
+ li#id_1497 .form-checkbox-item, li#id_1387 .form-checkbox-item,
+ li#id_1393 .form-checkbox-item, li#id_1399 .form-checkbox-item, li#id_1405 .form-checkbox-item, 
+ li#id_1641 .form-checkbox-item, li#id_1647 .form-checkbox-item, li#id_1653 .form-checkbox-item, li#id_1659 .form-checkbox-item,
+ li#id_1665 .form-checkbox-item, li#id_1671 .form-checkbox-item, li#id_1677 .form-checkbox-item,
+ li#id_1683 .form-checkbox-item, li#id_1695 .form-checkbox-item, li#id_1689 .form-checkbox-item{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #F4F6FA;
+  border: 1px solid #CBD0DA;
+}
+
+
+li#id_1162 .form-checkbox-item:hover, li#id_1168 .form-checkbox-item:hover,
+li#id_1174 .form-checkbox-item:hover, li#id_1180 .form-checkbox-item:hover,
+li#id_1186 .form-checkbox-item:hover, li#id_1192 .form-checkbox-item:hover,
+li#id_1198 .form-checkbox-item:hover, li#id_1204 .form-checkbox-item:hover,
+li#id_1478 .form-checkbox-item:hover, li#id_1483 .form-checkbox-item:hover,
+li#id_1290 .form-checkbox-item:hover,
+ li#id_1296 .form-checkbox-item:hover, li#id_1302 .form-checkbox-item:hover, li#id_1308 .form-checkbox-item:hover,
+ li#id_1314 .form-checkbox-item:hover, li#id_1320 .form-checkbox-item:hover, li#id_1326 .form-checkbox-item:hover,
+ li#id_1332 .form-checkbox-item:hover, li#id_1492 .form-checkbox-item:hover,
+li#id_1497 .form-checkbox-item:hover, li#id_1387 .form-checkbox-item:hover,
+ li#id_1393 .form-checkbox-item:hover, li#id_1399 .form-checkbox-item:hover, li#id_1405 .form-checkbox-item:hover,
+ li#id_1641 .form-checkbox-item:hover, li#id_1647 .form-checkbox-item:hover,
+ li#id_1653 .form-checkbox-item:hover, li#id_1659 .form-checkbox-item:hover, li#id_1665 .form-checkbox-item:hover,
+li#id_1671 .form-checkbox-item:hover, li#id_1677 .form-checkbox-item:hover,
+ li#id_1683 .form-checkbox-item:hover, li#id_1689 .form-checkbox-item:hover, li#id_1695 .form-checkbox-item:hover
+
+{
+  transition: 350ms;
+  background-color: #D9DEE9;
+
+  
+}
+
+
+
+/*provides space and margin at bottom of opeened samples */
+.form-dropdown {
+  margin-bottom: 45px !important;
+}
+
+
+/* remove hover shadow effect
+from input table to solve the stuttering problem */ 
+input:focus, input:hover, 
+textarea:focus, textarea:hover,
+select:focus, select:hover {
+  border: none !important;
+  
+}
+
+/* remove hover effect from page headers */
+#id_1474 input.form-readonly:hover, #id_1475 input.form-readonly:hover, 
+#id_1476 input.form-readonly:hover, #id_1477 input.form-readonly:hover {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  
+}
+
+#id_1474 input.form-readonly:focus, #id_1475 input.form-readonly:focus, 
+#id_1476 input.form-readonly:focus, #id_1477 input.form-readonly:focus {
+border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  
+}
+
+li#id_810.form-line {
+  font-weight: 500;
+  width: 100%;
+  padding: 20px !important;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  margin-top: 50px !important;
+  margin-bottom: 80px !important;
+}
+
+/* make background remain dark when checkbox is checked */
+.form-checkbox-item:has(input:checked) {
+background-color: #f7f7f7 !important;
+}
+
+/* remove above darkening of selected checkbox on intro page */
+#id_892 .form-checkbox-item:has(input:checked) {
+background-color: #ffffff !important;
+}
+
+/* make hood background remain dark when checkbox is checked */
+li#id_1162 .form-checkbox-item:has(input:checked),
+li#id_1168 .form-checkbox-item:has(input:checked),
+li#id_1174 .form-checkbox-item:has(input:checked),
+li#id_1180 .form-checkbox-item:has(input:checked),
+li#id_1186 .form-checkbox-item:has(input:checked),
+li#id_1192 .form-checkbox-item:has(input:checked),
+li#id_1198 .form-checkbox-item:has(input:checked),
+li#id_1204 .form-checkbox-item:has(input:checked),
+li#id_1478 .form-checkbox-item:has(input:checked),
+li#id_1483 .form-checkbox-item:has(input:checked),
+li#id_1290 .form-checkbox-item:has(input:checked), 
+li#id_1296 .form-checkbox-item:has(input:checked),
+li#id_1302 .form-checkbox-item:has(input:checked),
+li#id_1308 .form-checkbox-item:has(input:checked),
+li#id_1314 .form-checkbox-item:has(input:checked),
+li#id_1320 .form-checkbox-item:has(input:checked),
+li#id_1326 .form-checkbox-item:has(input:checked),
+li#id_1332 .form-checkbox-item:has(input:checked),
+li#id_1492 .form-checkbox-item:has(input:checked),
+li#id_1497 .form-checkbox-item:has(input:checked),
+li#id_1387 .form-checkbox-item:has(input:checked),
+li#id_1393 .form-checkbox-item:has(input:checked),
+li#id_1399 .form-checkbox-item:has(input:checked),
+li#id_1405 .form-checkbox-item:has(input:checked), 
+li#id_1641 .form-checkbox-item:has(input:checked), li#id_1647 .form-checkbox-item:has(input:checked), li#id_1653 .form-checkbox-item:has(input:checked), li#id_1659 .form-checkbox-item:has(input:checked),
+ li#id_1665 .form-checkbox-item:has(input:checked), li#id_1671 .form-checkbox-item:has(input:checked), li#id_1677 .form-checkbox-item:has(input:checked),
+ li#id_1683 .form-checkbox-item:has(input:checked), li#id_1695 .form-checkbox-item:has(input:checked), li#id_1689 .form-checkbox-item:has(input:checked)
+ {
+background-color: #D9DEE9 !important;
+}
+
+#animation {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #308BDF 0%, #35C3F4 100%);
+    border-radius: 12px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress-fill 25s linear forwards;
+}
+
+#animationContainer {
+    width: 60%;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Recolor input tables with more tasteful blue gray */
+.form-matrix-values
+  {
+        background-color: #F6F7FA !important; /* Change this hex code to your desired color */
+    }
+
+td.form-matrix-values input
+{
+  background-color: #F6F7FA !important;
+}
+
+
+td.form-matrix-values:nth-child(n+1) input {
+  border: 0px solid #d0d0d0 !important;
+ 
+}
+
+/* JotForm input tables - #CAD5E9 background */
+.form-input-wide thead th,
+.form-matrix-table th,
+.form-table thead th,
+[class*="matrix"] thead th,
+[class*="table"] thead th {
+  background-color: #D9DEE9 !important;
+  color: #000 !important;
+}
+
+/* Override the corner cell */
+th.form-matrix-th:first-child {
+  background-color: #ffffff !important;
+
+}
+
+@keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } 
+
+/* Center the Form Status */
+#label_1780 {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+#id_1780{
+  text-align: center !important;
+}
+
+#id_1780 .form-single-column {
+  width: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+#id_1780 .form-radio-item {
+  clear: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 12px !important;
+  text-align: left !important;
+  float: none !important;
+  width: auto !important;
+  display: block !important;
+}
+
+.submit-button {
+  color: #ffffff !important;
+}
+.submit-button:hover {
+  opacity:.6 !important;
+  transition: 350ms;
+    color: #ffffff !important;
+
+}
