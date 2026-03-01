@@ -154,47 +154,14 @@ td.form-matrix-values:nth-child(n+1) input {
  
 }
 
-/* Header row */
-tr.form-matrix-header-tr td {
-  background-color: #D9DEE9 !important;
-  color: #000 !important;
-  text-align: center !important;
-  vertical-align: middle !important;
+/* JotForm input tables - #CAD5E9 background */
+
+/* Override the corner cell - multiple attempts */
+th.form-matrix-th:first-child {
+  background-color: #ffffff !important;
+
 }
 
-/* Hide "Rows" corner cell text */
-tr.form-matrix-header-tr td:first-child {
-  color: #D9DEE9 !important;
-}
-
-/* Row label cells (Location 1, 2, 3...) */
-td.form-matrix-headers {
-  background-color: #D9DEE9 !important;
-  color: #000 !important;
-  text-align: center !important;
-  vertical-align: middle !important;
-}
-
-/* Row label text */
-td.form-matrix-headers label {
-  color: #000 !important;
-  text-align: center !important;
-}
-
-/* Zebra striping */
-tr.form-matrix-value-tr:nth-child(odd) td.form-matrix-values {
-  background-color: #FFFFFF !important;
-}
-
-tr.form-matrix-value-tr:nth-child(even) td.form-matrix-values {
-  background-color: #FAFBFC !important;
-}
-
-/* Center input values */
-td.form-matrix-values input {
-  text-align: center !important;
-  background: transparent !important;
-}
 
 /* All incubation table columns */
 .form-matrix-row-headers{
