@@ -11,6 +11,11 @@ html {
 }
 }
 
+@media (min-width: 768px) {
+div.calendar.popup{
+ width: 215px !important;
+}
+}
 /* Hide form briefly, then show */
 
 .form-all.form-all {
