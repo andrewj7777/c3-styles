@@ -693,6 +693,11 @@ tr.form-matrix-value-tr:nth-child(even) td.form-matrix-values {
   background-color: #FAFBFC !important;
 }
 
+/* Center input values */
+td.form-matrix-values input {
+  background: transparent !important;
+}
+
 @keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } 
 
 /* Center the Form Status */
