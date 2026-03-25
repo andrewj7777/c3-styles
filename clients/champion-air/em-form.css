@@ -646,36 +646,58 @@ background-color: #D9DEE9 !important;
 
 
 /* Recolor input tables with more tasteful blue gray */
-.form-matrix-values
-  {
-        background-color: #F6F7FA !important; /* Change this hex code to your desired color */
-    }
-
-td.form-matrix-values input
-{
+.form-matrix-values {
   background-color: #F6F7FA !important;
 }
 
+td.form-matrix-values input {
+  background-color: #F6F7FA !important;
+}
 
 td.form-matrix-values:nth-child(n+1) input {
   border: 0px solid #d0d0d0 !important;
- 
 }
 
-/* JotForm input tables - #CAD5E9 background */
-.form-input-wide thead th,
-.form-matrix-table th,
-.form-table thead th,
-[class*="matrix"] thead th,
-[class*="table"] thead th {
+/* Header row */
+tr.form-matrix-header-tr td {
   background-color: #D9DEE9 !important;
   color: #000 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
 }
 
-/* Override the corner cell */
-th.form-matrix-th:first-child {
-  background-color: #ffffff !important;
+/* Hide "Rows" corner cell text */
+tr.form-matrix-header-tr td:first-child {
+  color: #D9DEE9 !important;
+}
 
+/* Row label cells (Location 1, 2, 3...) */
+td.form-matrix-headers {
+  background-color: #D9DEE9 !important;
+  color: #000 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+/* Row label text */
+td.form-matrix-headers label {
+  color: #000 !important;
+  text-align: center !important;
+}
+
+/* Zebra striping */
+tr.form-matrix-value-tr:nth-child(odd) td.form-matrix-values {
+  background-color: #FFFFFF !important;
+}
+
+tr.form-matrix-value-tr:nth-child(even) td.form-matrix-values {
+  background-color: #FAFBFC !important;
+}
+
+/* Center input values */
+td.form-matrix-values input {
+  text-align: center !important;
+  background: transparent !important;
 }
 
 @keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } 
