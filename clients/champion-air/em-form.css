@@ -675,7 +675,6 @@ tr.form-matrix-header-tr td:first-child {
 td.form-matrix-headers {
   background-color: #D9DEE9 !important;
   color: #000 !important;
-  text-align: center !important;
   vertical-align: middle !important;
 }
 
@@ -692,12 +691,6 @@ tr.form-matrix-value-tr:nth-child(odd) td.form-matrix-values {
 
 tr.form-matrix-value-tr:nth-child(even) td.form-matrix-values {
   background-color: #FAFBFC !important;
-}
-
-/* Center input values */
-td.form-matrix-values input {
-  text-align: center !important;
-  background: transparent !important;
 }
 
 @keyframes progress-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } } 
