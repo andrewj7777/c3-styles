@@ -697,27 +697,8 @@ border: none !important;
 }
 
 /*calendar updates */
-input[id^="lite_mode_"] {
-  background-color: #FFFFFF !important;
-  border: 1px solid #E2E4E9 !important;
-  border-radius: 6px !important;
-  padding: 10px 14px !important;
-  font-size: 18px !important;
-  font-weight: 600 !important;
-  color: #1a1a1a !important;
-  transition: border-color 250ms, box-shadow 250ms !important;
-}
 
-input[id^="lite_mode_"]:focus {
-  background-color: #ffffff !important;
-  border-color: #534AB7 !important;
-  box-shadow: 0 0 0 3px rgba(83, 74, 183, 0.1) !important;
-  outline: none !important;
-}
 
-input[id^="lite_mode_"]:hover {
-  border-color: #C4C6CE !important;
-}
 
 div#cid_896 label,
 div#cid_1568 label,
